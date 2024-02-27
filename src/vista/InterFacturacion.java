@@ -45,7 +45,7 @@ public class InterFacturacion extends javax.swing.JInternalFrame {
     public InterFacturacion() {
         initComponents();
         this.setSize(new Dimension(800, 600));
-        this.setTitle("Facturacion");
+        this.setTitle("Facturacion-Serendipia");
         this.CargarComboClientes();
         this.CargarComboProductos();
         this.inicializarTablaProducto();
@@ -385,7 +385,7 @@ public class InterFacturacion extends javax.swing.JInternalFrame {
                     txt_cambio.setText(camb);
                 }
             } else {
-                JOptionPane.showMessageDialog(null, "No de admiten caracteres no numericos");
+                JOptionPane.showMessageDialog(null, "No de admiten caracteres no numéricos");
             }
         } else {
             JOptionPane.showMessageDialog(null, "Ingrese dinero en efectivo para calcular cambio");
